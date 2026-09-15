@@ -47,9 +47,14 @@ cmake --build build
 ./build/keel
 ```
 
-## Resume line
+## Numbers
 
 > C++17 price-time matching engine with a pooled L3 book (no heap on the match path), SPSC ingress, and a nanosecond latency histogram under synthetic maker/taker flow.
+>
+> Measured on Windows (MSYS2 UCRT64, g++ -O3):
+  400,000 events in 0.04 s
+  ~9.9M msg/s
+  latency ns: p50=100  p90=100  p99=200  p999=900
 
 ## Files
 
