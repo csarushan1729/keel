@@ -1,0 +1,8 @@
+build/
+keel
+keel.exe
+*.obj
+*.o
+.vs/
+CMakeFiles/
+CMakeCache.txt
